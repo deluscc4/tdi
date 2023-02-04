@@ -2,7 +2,7 @@
 
 ## Chapter 5 and 6: Vulnerabilities Analysis
 
-### Internet Control Message Protocol: ping [ip]
+### Internet Control Message Protocol: ``ping [ip]``
 
 Email Verifier: https://hunter.io/
 
@@ -20,4 +20,14 @@ Saving the output into the file and displaying:
 Just saving into:
 ![image](https://user-images.githubusercontent.com/122245816/216741763-16abc15d-ed5f-413c-8f63-cec77a5abb7f.png)
 
-### Port scanning: nmap [ip]
+### Port scanning: ``nmap -sV [ip]`` (-sV: show version)
+
+### Phases: Knowing > Analysing > Exploring
+
+``nmap --script vuln [ip]`` => Running some cataloged vulnerabilities into nmap
+
+SecLists: https://github.com/danielmiessler/SecLists
+
+## ``dirb [ip]`` => Checking directories
+
+## ``wpscan`` => Scanning tool for WordPress
